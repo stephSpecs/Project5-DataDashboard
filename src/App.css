@@ -21,6 +21,11 @@ select, input {
   border-radius: 6px;
 }
 
+.title-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .stats-container {
   display: flex;
   gap: 20px;
