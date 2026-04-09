@@ -1,0 +1,35 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.nav-container {
+    background-color: rgb(47, 36, 109);
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    background-color: rgb(47, 36, 109);
+    color: white;
+    cursor: pointer;
+    border: 2px solid #8b5cf6;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #8b5cf6;
+}
+
+footer {
+    padding: 0px 0px 0px 500px;
+    margin-left: auto;
+    color: #e0e0e0;
+    font-size: 14px;
+    align-self: center;
+}
