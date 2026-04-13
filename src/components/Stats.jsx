@@ -75,7 +75,7 @@ function Stats() {
 
             <div className="stats-container">
                 <h3>Genre Distribution</h3>
-                <BarChart width={600} height={300} data={genreDistribution}>
+                <BarChart width={800} height={400} data={genreDistribution}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />
@@ -84,7 +84,7 @@ function Stats() {
                 </BarChart>
 
                 <h3>Genre Ratings</h3>
-                <BarChart width={600} height={300} data={avgRatingByGenre}>
+                <BarChart width={800} height={400} data={avgRatingByGenre}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis domain={[3, 5]} />
@@ -93,7 +93,7 @@ function Stats() {
                 </BarChart>
 
                 <h3>Platform Distribution</h3>
-                <BarChart width={600} height={300} data={platformDistribution}>
+                <BarChart width={800} height={400} data={platformDistribution}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="name" />
                     <YAxis />

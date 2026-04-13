@@ -33,3 +33,12 @@ footer {
     font-size: 14px;
     align-self: center;
 }
+
+/* Stats.jsx */
+
+.stats-container {
+    display: block;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
