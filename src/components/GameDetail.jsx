@@ -30,12 +30,13 @@ function GameDetail() {
             </div>
 
             <div className="game-info-container">
-                <p>Name: {gameData.name}</p>
-                <p>Released: {gameData.released}</p>
-                <p>Age Rating: {gameData.esrb_rating ? gameData.esrb_rating.name : "No Rating"}</p>
-                <p>Developers: {gameData.developers.map((developer) => developer.name).join(", ")}</p>
-                <p>Publishers: {gameData.publishers.map((publisher) => publisher.name).join(", ")}</p>
-                <p>Description: {gameData.description_raw}</p>  
+                <img src={gameData.background_image} alt={gameData.name} className="game-image" />
+                <p className="game-info-data">Name: {gameData.name}</p><br/>
+                <p className="game-info-data">Released: {gameData.released}</p><br/>
+                <p className="game-info-data">Age Rating: {gameData.esrb_rating ? gameData.esrb_rating.name : "No Rating"}</p><br/>
+                <p className="game-info-data">Developers: {gameData.developers.map((developer) => developer.name).join(", ")}</p><br/>
+                <p className="game-info-data">Publishers: {gameData.publishers.map((publisher) => publisher.name).join(", ")}</p><br/>
+                <p className="game-info-data">Description: {gameData.description_raw}</p><br/>
             </div>
 
         </div>

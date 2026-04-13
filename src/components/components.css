@@ -34,6 +34,22 @@ footer {
     align-self: center;
 }
 
+/* GameDetail.jsx */
+.game-image {
+    display: block;
+    margin: 0 auto;
+    border:#8b5cf6 solid 3px;
+    border-radius: 6px;
+    width: 500px;
+    height: auto;
+}
+.game-info-container {
+    padding: 20px;
+    
+}
+.game-info-data {
+    font-weight: bold;
+}
 /* Stats.jsx */
 
 .stats-container {
@@ -42,3 +58,4 @@ footer {
     gap: 20px;
     padding: 20px;
 }
+
